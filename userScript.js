@@ -19,7 +19,9 @@ const readyCheck = setInterval(() => {
     typeof Game.ready !== "undefined" &&
     Game.ready
   ) {
-    Game.LoadMod("to fill");
+    Game.LoadMod(
+      "https://cc-swbuwk.github.io/Spell-Skipper/dist/SpellSkipper.js",
+    );
     clearInterval(readyCheck);
   }
 }, 1000);

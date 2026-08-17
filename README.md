@@ -1,5 +1,7 @@
 # Spell Skipper
 
+Visual helper to skip grimoire spells!
+
 # Installation
 
 ### Userscript (browser)
@@ -28,7 +30,7 @@ const readyCheck = setInterval(() => {
     typeof Game.ready !== "undefined" &&
     Game.ready
   ) {
-    Game.LoadMod("to fill");
+    Game.LoadMod("https://cc-swbuwk.github.io/Spell-Skipper/dist/SpellSkipper.js");
     clearInterval(readyCheck);
   }
 }, 1000);
@@ -39,5 +41,5 @@ const readyCheck = setInterval(() => {
 Make a bookmark in browser and paste this into URL
 
 ```
-javascript: (() => { Game.LoadMod("to fill"); })()
+javascript: (() => { Game.LoadMod("https://cc-swbuwk.github.io/Spell-Skipper/dist/SpellSkipper.js"); })()
 ```

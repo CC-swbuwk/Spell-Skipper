@@ -28,7 +28,7 @@ module.exports = (_env, argv) => {
         ? [
             new webpack.SourceMapDevToolPlugin({
               filename: `${appName}.js.map`,
-              publicPath: `https://swbuwk.github.io/${appName}/dist/`,
+              publicPath: `https://cc-swbuwk.github.io/Spell-Skipper/dist/`,
             }),
           ]
         : []),
